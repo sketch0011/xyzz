@@ -1,0 +1,1535 @@
+/*border: .1px solid red; */
+body::-webkit-scrollbar,
+.allstory::-webkit-scrollbar,
+.midprf::-webkit-scrollbar {
+    display: none;
+}
+
+body::selection {
+    background-color: transparent;
+}
+
+body::-moz-selection {
+    background-color: transparent;
+}
+
+body {
+    user-select: none;
+}
+
+/* __________________________________________________________________login_________________________________________ */
+
+.outlogin {
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.alter {
+    font-size: .8rem;
+    padding: .5rem;
+    text-overflow: ellipsis;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+    background-color: #d2d2d2;
+    color: #ffffff;
+    width: 40%;
+    font-weight: 300;
+    min-width: 15rem;
+    min-height: 3rem;
+    position: absolute;
+    top: -10rem;
+    display: flex;
+    align-self: center;
+    transition: .2s;
+}
+
+.loginx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: .4px .4rem 1rem rgb(223, 223, 223);
+    border-radius: 1rem;
+    width: 70%;
+    height: 35rem;
+}
+
+.fist {
+    width: 90%;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loginx:hover {
+    border: none;
+    transition: .2s;
+
+}
+
+.entr {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.inp {
+    width: 25rem;
+    height: 2rem;
+    border-radius: .1rem;
+    color: rgb(0, 72, 86);
+    background-color: #ffffff00;
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+    background-color: rgb(244, 244, 244);
+    border-bottom: 1px solid rgb(0, 208, 255);
+}
+
+.inp::placeholder {
+    width: 100%;
+    height: 2rem;
+    background-color: rgb(244, 244, 244);
+    margin-left: 2rem;
+    color: rgb(169, 169, 169);
+
+}
+
+.btnd {
+    margin-top: 1rem;
+    height: 2rem;
+    border-radius: .5rem;
+    border: none;
+    width: 12.5rem;
+    color: rgb(235, 253, 255);
+    background-image: linear-gradient(45deg, rgb(0, 255, 251), rgb(0, 235, 243), rgb(0, 231, 227));
+}
+
+.sexnd {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+
+}
+
+.inx {
+    border-radius: .1rem;
+    padding-left: 1rem;
+    border: none;
+    background-image: linear-gradient(45deg, rgb(241, 241, 241), rgb(245, 245, 245), rgb(240, 240, 240));
+    border-bottom: 1px solid #00bbff;
+    width: 60%;
+    outline: none;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.throd {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+
+}
+
+.bss {
+
+    background-image: linear-gradient(45deg, #84fffb, rgb(0, 255, 162));
+    margin-right: 18.3%;
+    align-self: end;
+    border: none;
+    color: rgb(255, 255, 255);
+    height: 2rem;
+    width: 8rem;
+    border-radius: .5rem;
+    margin-bottom: .5rem;
+}
+
+
+
+/*____________________________________________________________________top and zero_______________________________  */
+.toplogo {
+    position: fixed;
+    z-index: 20;
+    left: 0rem;
+    top: 0rem;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    border-bottom: .1px solid silver;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    font-size: 2.5rem;
+    padding-left: .5rem;
+}
+
+.swip {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+/* svg:hover{
+    path
+} */
+.search {
+    margin: 0 .5rem 0 0;
+    padding: .5rem;
+    border: 1px solid rgb(129, 95, 101);
+    border-radius: .5rem;
+    width: 70%;
+}
+
+.search::placeholder {
+    text-align: center;
+    color: rgb(8, 106, 106);
+}
+
+.ep,
+.msgmob,
+.moremob {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: .7rem;
+    display: none;
+}
+
+.start {
+    margin-top: 4rem;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+.zero {
+    height: 100%;
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    background-color: white;
+    z-index: 18;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.index {
+    margin: 4rem 1.5rem 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.indx {
+    border-radius: .5rem;
+    height: 2rem;
+    width: 9.2rem;
+    padding: .4rem;
+    margin: 0 0 .5rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.indx:hover {
+    transition: .2s;
+    background-image: linear-gradient(45deg, rgb(235, 235, 235), rgb(229, 255, 255));
+}
+
+.log {
+    display: flex;
+    flex-direction: column;
+}
+
+.o1,
+.o3 {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.svg {
+    padding-left: .2rem;
+    border-radius: .3rem;
+    width: 70%;
+    margin-left: .6rem;
+    font-size: 1rem;
+    /* background-image: linear-gradient(45deg, #fcaf45,#e1306c,rgb(255,48,108)); */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.line {
+    border: .01rem solid rgb(213, 213, 213);
+    height: 100vh;
+    margin: 0 .4rem 0 0;
+    width: 0px;
+}
+
+.one {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.mrgn {
+    min-width: 12.48rem;
+}
+
+/* _____________________________________________________________________________________home____________________________________________ */
+
+
+.outhome {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.home {
+    max-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media(max-width:1100px) {
+    .home {
+        transition: .5s;
+        max-width: 65vw;
+    }
+}
+
+.allstory {
+    width: 100%;
+    margin: .5rem 0 .5rem 0;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow-y: hidden;
+    scrollbar-width: none;
+}
+
+.per {
+    width: 4.6rem;
+    margin: 0 .5rem .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pink {
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #ffdc80, #fcaf45, rgb(221, 42, 123), rgb(53, 4, 66));
+    width: 4rem;
+    height: 4rem;
+}
+
+.pik {
+    border-radius: 50%;
+    width: 3.8rem;
+    height: 3.8rem;
+    margin: .1rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.up {
+    border-radius: 50%;
+    padding: .1rem;
+    width: 3.6rem;
+    height: 3.6rem;
+}
+
+.per>.name {
+
+    font-size: .62rem;
+}
+
+.name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: .85rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.post {
+    width: 70%;
+}
+
+.topper {
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+}
+
+.t1 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: start;
+
+}
+
+.t2 {
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: end;
+
+}
+
+.story {
+    border-radius: 50%;
+    margin: 0 .4rem 0 .4rem;
+    /* background-color: rgb(163, 7, 88); */
+    background-image: linear-gradient(45deg, #fcaf45, #f77737, rgb(221, 42, 123), #c13584, #833ab4);
+    width: 3rem;
+    height: 3rem;
+}
+
+.pic {
+    border-radius: 50%;
+    background-size: contain;
+    margin: .1rem;
+    background-color: aliceblue;
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.me {
+    border-radius: 50%;
+    padding: .1rem;
+    width: 2.6rem;
+    height: 2.6rem;
+}
+
+.t1>.name {
+    margin-left: .3rem;
+}
+
+.follow {
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: .3rem;
+    margin-right: .5rem;
+}
+
+.flo {
+    color: rgb(136, 136, 136);
+    margin: .2rem;
+    padding: 0%;
+    display: flex;
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.pos {
+    border-radius: .2rem;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.frame {
+    border: .1px solid rgb(233, 233, 233);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.btn>svg {
+    display: flex;
+    justify-content: flex-start;
+    margin: .2rem;
+}
+
+.tcmt>button {
+    display: flex;
+    justify-content: center;
+    height: 2.1rem;
+    width: 3rem;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.cdetail {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+.lcnt,
+.bio,
+.ccnt {
+    width: 100%;
+    padding: .15rem;
+    margin: .15rem 0rem;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    align-items: center;
+}
+
+.lcnt>p,
+.bio>p,
+.ccnt>p,
+.tno {
+
+    text-overflow: ellipsis;
+    margin: 0%;
+    padding: 0%;
+}
+
+.bioo {
+    text-align: start;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    color: rgb(99, 99, 99);
+}
+
+.ccnt {
+
+    color: rgb(171, 171, 171);
+}
+
+.cmmm {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+}
+
+.morecmt {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    display: flex;
+}
+
+.d1 {
+    width: 5rem;
+    display: flex;
+}
+
+.ccmtt {
+    width: 100%;
+    min-width: 0rem;
+}
+
+.inlike {
+    min-width: 0rem;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.tcmt {
+    width: 80%;
+    min-width: 0;
+}
+
+.tcmt>p {
+    min-width: 0;
+    overflow-y: visible;
+    overflow-wrap: break-word;
+}
+
+.incmt {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    margin: 0%;
+    padding: .5rem;
+    border-radius: .5rem;
+    background-color: rgb(239, 239, 239);
+    color: rgb(105, 70, 70);
+}
+
+.view {
+    color: rgb(118, 118, 118);
+    font-size: .8rem;
+    margin-bottom: .3rem;
+    ;
+    display: flex;
+    flex-direction: row;
+}
+
+.rplo {
+    display: none;
+    flex-direction: column;
+}
+
+.lcm {
+    margin: 10% 0 0 0;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.glike {
+
+    padding: 0%;
+    margin: 0%;
+}
+
+.clik {
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(118, 118, 118);
+    padding: 0%;
+    margin: 0%;
+}
+
+.footer {
+    margin: 0%;
+    justify-content: start;
+    display: flex;
+    align-items: center;
+}
+
+
+.search::placeholder {
+
+    text-align: center;
+    color: rgb(8, 106, 106);
+}
+
+.addc {
+    outline: none;
+    border-radius: .3rem;
+    width: 80%;
+    margin: 0 .5rem 0 .5rem;
+    padding: .5rem;
+    border: .5px solid rgb(129, 95, 101);
+    width: 80%;
+}
+
+.addc::placeholder {
+    opacity: 1;
+    align-items: center;
+    padding: .3rem;
+    font-size: 1rem;
+    font-weight: 100;
+    color: rgb(141, 141, 141);
+
+}
+
+.time {
+    width: 100%;
+    padding: .15rem;
+    margin: .15rem 0rem;
+    display: flex;
+    justify-content: flex-start;
+    font-size: .8rem;
+    font-weight: 100;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(174, 174, 174);
+}
+
+/*_____________________________________________________________reel______________________________________*/
+.outreel {
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    display: block;
+}
+
+.inrel {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.reel {
+    border-radius: .5rem;
+    outline: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+    transition: .5s;
+    display: flex;
+    flex-basis: 30%;
+    aspect-ratio: 9/16;
+}
+
+@media(max-width:1270px) {
+    .reel {
+
+        flex-basis: 35%;
+    }
+}
+
+@media(max-width:1170px) {
+    .reel {
+
+        flex-basis: 40%;
+    }
+}
+
+@media(max-width:1070px) {
+    .reel {
+
+        flex-basis: 45%;
+    }
+}
+
+@media(max-width:970px) {
+    .reel {
+
+        flex-basis: 50%;
+    }
+}
+
+@media(max-width:870px) {
+    .reel {
+
+        flex-basis: 60%;
+    }
+
+    .inprofile {
+        width: 35rem;
+    }
+
+}
+
+@media(max-width:770px) {
+    .reel {
+
+        flex-basis: 68%;
+    }
+}
+
+@media(max-width:720px) {
+    .reel {
+
+        flex-basis: 72%;
+    }
+}
+
+@media(max-width:650px) {
+    .reel {
+
+        flex-basis: 80%;
+    }
+}
+
+@media(max-width:570px) {
+    .reel {
+
+        flex-basis: 68%;
+    }
+}
+
+.vidrel {
+    border-radius: .2rem;
+    object-fit: cover;
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    height: 90%;
+    border: 0;
+
+}
+
+/* _________________________________________________________create__________________________ */
+
+.outcreate {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    z-index: 22;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.crt {
+    background-color: #00000071;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 105%;
+    height: 120%;
+    position: fixed;
+}
+
+.fulcrt {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    position: static;
+    width: 60%;
+    max-width: 40rem;
+    min-width: 20rem;
+    height: 50%;
+    border-radius: 1.5rem;
+}
+
+.crous {
+    position: relative;
+    left: 40%;
+    bottom: 12%;
+
+
+}
+
+.tina {
+
+    padding: .4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    border: none;
+    width: 12rem;
+    height: 1.7rem;
+    color: rgb(255, 255, 255);
+    background-color: #00aeff;
+}
+
+.tina:hover {
+    color: rgb(255, 255, 255);
+    background-color: #00a1ec;
+}
+
+.hfj {
+    padding: .3rem;
+    width: 80%;
+    height: 8rem;
+    outline: none;
+    border: 1px solid rgb(0, 221, 255);
+    border-radius: .5rem;
+
+
+}
+
+.secondpp {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    width: 100%
+}
+
+/* _______________________________________________________________explore________________________________________ */
+
+
+.outexplor {
+    display: block;
+    width: 82.5rem;
+}
+
+.explor {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    position: relative;
+}
+
+.inimg,
+.invid {
+    display: none;
+}
+
+.inppt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.501);
+    width: 7rem;
+    height: 2.9rem;
+    border-radius: 1rem;
+    position: fixed;
+    z-index: 4;
+    bottom: 4rem;
+    right: 2rem;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.118);
+    color: rgb(255, 255, 255);
+}
+
+.inppt:hover {
+    transition: .1s;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.413);
+}
+
+.load {
+    right: 10rem;
+}
+
+.lb>p {
+    margin-left: .5rem;
+}
+
+.lb {
+    border-radius: 1rem;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.epik {
+    position: relative;
+    flex-basis: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap-reverse;
+    flex-grow: 2;
+    display: flex;
+    flex-shrink: 2;
+}
+
+.bux {
+
+    border-radius: .5rem;
+    outline: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+    transition: .5s;
+    display: block;
+    flex-basis: 16.666%;
+    aspect-ratio: 9/16;
+}
+
+@media(max-width:1100px) {
+    .bux {
+        flex-basis: 20%;
+    }
+}
+
+@media(max-width:950px) {
+    .bux {
+        flex-basis: 25%;
+    }
+}
+
+@media(max-width:800px) {
+    .bux {
+        flex-basis: 33.33%;
+    }
+}
+
+.gee {
+    border-radius: .2rem;
+    object-fit: cover;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    width: 99%;
+    height: 99%;
+    border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.bux:hover {
+    transition: 0s;
+    opacity: .95;
+}
+
+.foll {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: .2rem .2rem 0 0;
+    z-index: 2;
+    box-sizing: border-box;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 99%;
+    height: 3rem;
+}
+
+.cott {
+    margin: .5rem;
+}
+
+.cott>path {
+    fill: rgba(0, 0, 255, 0);
+    stroke: white;
+}
+
+.cott>path:hover {
+    stroke: red;
+}
+
+.mour {
+    display: none;
+    position: absolute;
+    align-items: end;
+    flex-direction: column;
+    border-radius: .2rem;
+    z-index: 3;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #00000040;
+    color: rgb(180, 178, 178);
+    position: absolute;
+    width: 9rem;
+    top: 100%;
+    right: 1%;
+    padding: 2%;
+}
+
+.mour>div {
+    flex-direction: column;
+    align-items: start;
+    display: flex;
+    border-radius: .2rem;
+    width: 90%;
+    background-image: white;
+    padding: 5%;
+}
+
+.mour>div:hover {
+    background-image: linear-gradient(45deg, #cdd8ddec, #e4e2e2ec);
+    color: black;
+}
+
+/* ____________________________________________________________________profile_______________________________________ */
+.outprofile {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    width: 100%;
+    height: 95vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inprofile {
+    width: 40rem;
+}
+
+.topprf {
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.prf1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    aspect-ratio: 1/1;
+    width: 40%;
+}
+
+.myown {
+    object-fit: cover;
+    border: 1px solid rgb(120, 120, 120);
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: 70%
+}
+
+.prf2 {
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.hi2>div,
+.usrnm,
+.setting,
+.hi3,
+.hi4 {
+    border-radius: .2rem;
+    margin-right: 1rem;
+    padding: .25rem .5rem .25rem .5rem;
+}
+
+.hi1,
+.hi2 {
+    padding: .25rem 0 .25rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.hi3 {
+    margin-bottom: -.35rem;
+}
+
+.edtprf,
+.arch {
+    width:5rem;
+    border-radius: .4rem;
+    margin-right: 1rem;
+    padding: .25rem .5rem .25rem .5rem;
+    background-color: #e7e7e7;
+}
+
+.midprf {
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+    overflow: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.higlt {
+    margin: .3rem 2rem .3rem .2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.outline {
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    aspect-ratio: 1/1;
+    border: 1px solid rgb(120, 120, 120);
+    border-radius: 50%;
+    width: 4rem;
+}
+
+.high1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    width: 98%
+}
+
+.botprf {
+    margin: 0rem 0 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.botprf>div {
+    font-weight: 100;
+    top: -1px;
+    position: relative;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0rem 1rem 0 1rem;
+    padding: .25rem 1rem .25rem 1rem;
+}
+
+.botprf>div:hover {
+    color: rgb(0, 0, 0);
+}
+
+.lastprf {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+}
+
+.postcntn,
+.yyy,
+.aaa {
+    display: block;
+    position: relative;
+    aspect-ratio: 1/1;
+    flex-basis: 33.333%;
+}
+
+.propost {
+    object-fit: cover;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    width: 99%;
+    height: 99%;
+    border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.aaa {
+    flex-basis: 25%;
+}
+
+.inprofile2 {
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 2rem;
+    font-size: 1rem;
+    color: grey;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 3vh;
+    background-color: rgba(0, 0, 0, 0.883);
+    border-radius: .5rem;
+    position: absolute;
+    width: 40rem;
+    height: 75vh;
+    border: 1px solid black;
+}
+
+.admp {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 12rem;
+    aspect-ratio: 1/1;
+}
+
+.admp2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 80%;
+    background-color: rgb(157, 157, 157);
+    aspect-ratio: 1/1;
+}
+
+.gjfi {
+    padding: .1rem;
+    border-radius: 50%;
+    background-color: white;
+    fill: rgb(0, 0, 0);
+    position: absolute;
+    top: 6.8rem;
+    left: 6.8rem;
+}
+
+#adnm,
+#adusn {
+    color: rgb(211, 211, 211);
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 2rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(40, 189, 2);
+    width: 80%;
+    height: 1.5rem;
+}
+
+#adbio {
+    padding: .5rem;
+    color: rgb(211, 211, 211);
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    width: 75%;
+    height: 7rem;
+}
+
+.okeybn {
+    color: #ffffff;
+    border-radius: .3rem;
+    padding: .3rem .8rem .3rem .8rem;
+    background-color: #0eb3ff;
+}
+
+@media(max-width:850px) {
+
+    .inprofile,
+    .inprofile2 {
+        width: 35rem;
+    }
+
+    .prf2 {
+        width: 100%;
+
+    }
+
+    .topprf {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media(max-width:775px) {
+
+    .inprofile,
+    .inprofile2 {
+        width: 30rem;
+    }
+
+    .myown {
+        width: 80%
+    }
+}
+
+/* ________________________________________________________________on tab________________________________________ */
+
+@media(max-width:698px) {
+    .home {
+        transition: .5s;
+        max-width: 24rem;
+    }
+
+    .bux {
+        display: block;
+        flex-basis: 50%;
+        aspect-ratio: 9/16;
+    }
+
+    .loginx {
+        transition: .3s;
+        width: 90%
+    }
+
+    .inx,
+    .inp {
+        width: 80%;
+    }
+
+    .bss {
+        margin-right: 8%;
+    }
+
+    .inprofile,
+    .inprofile2 {
+        width: 23rem;
+    }
+}
+
+
+@media(max-width:602px) {
+    .indx {
+        transition: .5s;
+        width: 2rem;
+    }
+
+    .post {
+        transition: .2s;
+        width: 100%;
+    }
+
+    .mrgn {
+        transition: .5s;
+        min-width: 5.28rem;
+    }
+
+    .home {
+        transition: .5s;
+        max-width: 26rem;
+    }
+
+    .svg {
+        transition: .5s;
+        display: none;
+    }
+
+    .bux {
+        display: block;
+        flex-basis: 33.33%;
+        aspect-ratio: 9/16;
+    }
+
+    .loginx {
+        transition: .3s;
+        width: 95%
+    }
+}
+
+
+/* ________________________________________________________________on mobile____________________________________________ */
+
+
+@media(max-width:521px) {
+    .mrgn {
+        transition: .5s;
+        display: none;
+    }
+
+    .ep,
+    .msgmob,
+    .moremob {
+        transition: .2s;
+        margin-top: .3rem;
+        display: flex;
+    }
+
+    .home {
+        transition: .5s;
+        width: 100%;
+
+    }
+
+    .zero {
+        height: 3rem;
+        padding-left: auto;
+        top: auto;
+        bottom: 0%;
+        width: 100%;
+        z-index: 20;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .index {
+        border-top: 1px solid rgb(226, 226, 226);
+        padding-top: .4rem;
+        width: 100%;
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: end;
+    }
+
+    .menu {
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .indx {
+        height: 1.5rem;
+        width: 1.5rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .indx:hover {
+        background-image: none;
+    }
+
+    .smob,
+    .sch,
+    .search {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .bux {
+        display: block;
+        flex-basis: 50%;
+        aspect-ratio: 9/16;
+    }
+
+    .loginx {
+        transition: .3s;
+        width: 100%
+    }
+
+    .reel {
+
+        flex-basis: 95%;
+    }
+
+    .inprofile,
+    .inprofile2 {
+        width: 100%;
+    }
+
+    .setting {
+        display: none;
+    }
+}
+
+/* ________________________________________________________ display none___________________________________________+*/
+.foll,
+.point,
+.outexplor,
+.sexnd,
+.throd,
+.mour,
+.outprofile,
+.outmessage,
+.outreel,
+.outcreate,
+.vvv,
+.mmm {
+    display: none;
+
+}
